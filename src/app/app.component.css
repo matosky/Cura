@@ -4,7 +4,7 @@
   display: flex;
   max-width: 100%;
   overflow: hidden;
-  background-color: #fdfdfd;
+  background-color: #f0ecec;
 }
 
 .main{
@@ -12,7 +12,7 @@
   width: 100%;
   max-width: 100%;
 
-  background-color: #fdfdfd;
+  background-color: #f0ecec;
   overflow-y: scroll;
 }
 
