@@ -31,6 +31,10 @@ button {
   background-color: #8A6CC8;
 }
 
+.activeColor:hover{
+  color: #fff;
+}
+
 button:hover {
   background-color: #8A6CC8;
 }
