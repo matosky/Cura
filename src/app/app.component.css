@@ -4,15 +4,16 @@
   display: flex;
   max-width: 100%;
   overflow: hidden;
-  background-color: rgb(251, 249, 249);
+  background-color: #fdfdfd;
 }
 
 .main{
   height: 100%;
   width: 100%;
   max-width: 100%;
-  background-color: rgb(251, 249, 249);
-    overflow-y: scroll;
+
+  background-color: #fdfdfd;
+  overflow-y: scroll;
 }
 
 .container{

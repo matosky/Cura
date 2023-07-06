@@ -23,8 +23,8 @@
 .divider{
   width: 100%;
   max-width: 100%;
-  background-color: rgb(240, 238, 238);
-  height: 5px;
+  background-color: #fdfdfd;
+  height: 8px;
 }
 
 /* Main menu items */
