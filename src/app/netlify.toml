@@ -1,0 +1,11 @@
+[build]
+  command = "ng build --prod"
+  publish = "dist/<your-app-name>"
+
+[build.environment]
+  NODE_VERSION = "14"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
