@@ -1,0 +1,6 @@
+<button [ngClass]="{activeRow: activeRow, color: color, activeColor: activeColor}">
+  <ng-container *ngIf="icon">
+    <img  src="assets/images/csv.svg" alt="SVG Image" />
+  </ng-container>
+  {{text}}
+</button>

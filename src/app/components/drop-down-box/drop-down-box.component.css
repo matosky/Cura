@@ -1,0 +1,31 @@
+.box {
+  width: 200px;
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box span {
+  margin-bottom: 10px;
+}
+
+.box .active{
+color: #8A6CC8;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.box hr {
+  margin: 5px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}

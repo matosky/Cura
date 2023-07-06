@@ -1,0 +1,34 @@
+<div class="parent">
+  <app-complaints-header></app-complaints-header>
+ <div class="table-wrap">
+  <table class="ant-table">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Date</th>
+        <th>Phone</th>
+        <th>Complaint Type</th>
+        <th>Rating</th>
+        <th>NPS</th>
+        <th>Status</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="row" *ngFor="let row of data">
+        <td>{{row.Time}}</td>
+        <td>{{row.Date}}</td>
+        <td>{{row.Phone}}</td>
+        <td>{{row.Complaint}}</td>
+        <td>{{row.Rating}}</td>
+        <td>{{row.NPS}}</td>
+        <td>{{row.Status}}</td>
+        <td>
+          <app-button [activeColor]="!row.Active" [activeRow]="row.Active" text="View"></app-button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+ </div>
+
+</div>

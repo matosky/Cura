@@ -1,0 +1,35 @@
+.Dashboard{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: rgb(251, 249, 249);
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  background-color: rgb(251, 249, 249);
+    overflow-y: scroll;
+}
+
+.container{
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-right: 30px;
+}
+
+@media (max-width:1400px) {
+  .main{
+    margin: 0 0 40px 0;
+  }
+
+  .container{
+    padding: 0 20px 40px 0;
+  }
+
+
+}

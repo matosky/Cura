@@ -1,0 +1,45 @@
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(138, 108, 200, 0.4);
+      white-space: nowrap;
+  border-radius: 28px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.color{
+  background-color: #8A6CC8;
+}
+
+.activeColor{
+  color: #8A6CC8;
+  border: 0.3px solid rgb(197, 197, 197);
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(138, 108, 200, 0.4);
+}
+
+.activeRow{
+  background-color: #8A6CC8;
+}
+
+button:hover {
+  background-color: #8A6CC8;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #8A6CC8;
+}
+
+img{
+  margin-right: 5px;
+}

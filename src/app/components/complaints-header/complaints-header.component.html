@@ -1,0 +1,46 @@
+<h1>Complaints</h1>
+<div class="top">
+  <div class="input">
+    <app-input></app-input>
+  </div>
+  <div>
+    <app-button [color]="true" [icon]="true" text="Export Complaints CSV"></app-button>
+  </div>
+</div>
+<div class="bottom">
+  <div class="tabs">
+    <div class="tab">
+      <img class="tab-icon" src="assets/images/date.svg" alt="SVG Image" />
+      Start Date: Sep 1
+    </div>
+    <div class="tab">
+      <img class="tab-icon" src="assets/images/date.svg" alt="SVG Image" />
+      Start Date: Sep 30
+    </div>
+    <div class="tab in-progress" (click)="toggleTabDropdown()">
+      <div class="dropdown">
+        <app-drop-down-box [tabDropdown]="tabDropdown" [noTabDropdown]="!tabDropdown"></app-drop-down-box>
+      </div>
+      <span>
+       Status: In-progress
+      </span>
+    </div>
+    <div class="tab">
+      <img class="tab-icon" src="assets/images/icon.svg" alt="SVG Image" />
+      <span> Filter </span>
+    </div>
+    <div class="tab">
+      <img class="tab-icon" src="assets/images/clear.svg" alt="SVG Image" />
+      Clear Filter
+    </div>
+  </div>
+  <div class="pagination">
+    <div class="arrow">
+      <img src="assets/images/arrowleft.png" alt="SVG Image" />
+    </div>
+    <div class="count">1 of 10</div>
+    <div class="arrow">
+      <img src="assets/images/arrowright.png" alt="SVG Image" />
+    </div>
+  </div>
+</div>

@@ -1,0 +1,159 @@
+
+
+h1{
+  color: #8A6CC8;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.top{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 20px 0;
+}
+
+.top .input{
+  width: 75%;
+  margin-right: 14px;
+}
+
+.top .button{
+  width: fit-content;
+  max-width: 100%;
+}
+
+
+
+.bottom {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.tabs{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  overflow-x: scroll;
+}
+
+.bottom .tabs .tab{
+  width: fit-content;
+    padding: 8px 30px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #3C3C3C;
+    border-radius: 28px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border: none;
+    white-space: nowrap;
+    box-shadow: 0 2px 6px rgba(138, 108, 200, 0.4);
+    background-color: #fff;
+    margin-bottom: 20px;
+    /* box-shadow: 0 8px 16px rgba(250, 248, 248, 0.5); */
+}
+
+.tab .dropdown{
+  position: absolute;
+  top: 90%;
+}
+
+.tab .tab-icon{
+  margin-right: 5px;
+}
+
+.bottom .tabs .tab:nth-child(4){
+  background-color: #8A6CC8;
+  color: #fff;
+}
+
+
+.pagination{
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+
+.pagination .arrow{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.pagination .count{
+  margin: 0 8px;
+  font-size: 12px;
+}
+
+
+
+@media (max-width:1400px) {
+.bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+     .bottom .tabs {
+       width: fit-content;
+       margin: 0 auto;
+       padding: 20px 10px;
+     }
+
+}
+
+@media (max-width:994px) {
+
+  h1{
+    display: none;
+  }
+
+    .top {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+      }
+
+      .top .input{
+        margin-bottom: 20px;
+        width: 100%;
+      }
+  .bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    background-color: transparent;
+  }
+
+  .bottom .tabs {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .tab .dropdown{
+    display: none;
+  }
+
+}
