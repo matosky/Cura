@@ -1,6 +1,6 @@
 /* Sidebar container */
 .sidebar {
-  width: 255px;
+  width: 280px;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@
 .divider{
   width: 100%;
   max-width: 100%;
-  background-color: #fdfdfd;
+  background-color: #f4f4f4;
   height: 8px;
 }
 
