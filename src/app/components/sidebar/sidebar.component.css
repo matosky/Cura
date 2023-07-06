@@ -75,7 +75,7 @@ img{
 }
 
 .menu-item a:hover {
-  background-color: #ddd;
+  color: #8A6CC8;
 }
 
 /* Icon styles */
@@ -107,13 +107,15 @@ img{
   padding: 5px;
 }
 
+.submenu-item a:hover{
+  color: #8A6CC8;
+}
+
 .submenu-item .active-sub-menu-item{
   color: #8A6CC8;
 }
 
-.submenu-item a:hover {
-  background-color: #f0f0f0;
-}
+
 
 /* Footer section */
 .sidebar-footer {
